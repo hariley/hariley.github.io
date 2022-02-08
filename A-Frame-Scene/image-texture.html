@@ -10,8 +10,8 @@
 <a-scene antialias="true">
 	
 	<a-assets>
-		<img id="sky" src="images/stars.jpg" crossorigin="anonymous" />
-		<img id="tile" src="images/tile.png" crossorigin="anonymous" />
+		<img id="bluesky" src="images/bluesky.png" crossorigin="anonymous" />
+		<img id="pavement" src="images/pavement.png" crossorigin="anonymous" />
 		<img id="craftingtable" src="images/craftingtable.png" crossorigin="anonymous" />
 		<img id="disco" src="images/discoball.png" crossorigin="anonymous" />
 		<img id="tire" src="images/tiretracks.png" crossorigin="anonymous" />
@@ -20,7 +20,7 @@
 		
 	<a-sky 
 		color = "#FFFFFF"
-		material = "src: #sky">
+		material = "src: #bluesky">
 	</a-sky>
 
 	<a-plane
@@ -28,7 +28,7 @@
 		position=" 0.00 0.00 0.00" 
 		rotation="-90 0 0" 
 		color="#888888" 
-		material="src: #tile; repeat:10 10; transparent: true; opacity: 0.75"
+		material="src: #pavement; repeat:10 10; transparent: true; opacity: 0.75"
 		shadow="cast: false; receive: true">
 	</a-plane>
 	
