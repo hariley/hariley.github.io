@@ -19,6 +19,8 @@
 		<img id="screen" src="images/blackgradient.png"  crossorigin="anonymous" />
 		<img id="coke" src="images/cokecan1.png"  crossorigin="anonymous" />
 		<img id="speedlimit" src="images/speedlimit.png"  crossorigin="anonymous" />
+		<img id="jerometop" src="images/jerome_top.png"  crossorigin="anonymous" />
+		<img id="jeromebottom" src="images/jerome_bottom.png"  crossorigin="anonymous" />
 	</a-assets>
 
 <!---sky--->
@@ -162,6 +164,25 @@
 		color = "#808080"
 		shadow = "cast: true; receive: true">
 	</a-cylinder>
+
+<!---jerome library--->
+	<!--top-->
+	<a-box
+		width = "10" height = "40" depth = "20"
+		position = "-3 2.6 -15"
+		rotation = "0 0 0"  
+	        material = "src: #jerometop;"
+		shadow = "cast: true; receive: true">
+	</a-box>
+	
+	<!--bottom-->
+	<a-box
+		width = "40" height = "20" depth = "20"
+		position = "-3 2.6 -15"
+		rotation = "0 0 0"  
+	        material = "src: #jeromebottom;"
+		shadow = "cast: true; receive: true">
+	</a-box>
 	
 </a-scene>
 </body>
