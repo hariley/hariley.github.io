@@ -18,6 +18,7 @@
 		<img id="metal" src="images/metal.png" crossorigin="anonymous" />
 		<img id="screen" src="images/blackgradient.png"  crossorigin="anonymous" />
 		<img id="coke" src="images/cokecan1.png"  crossorigin="anonymous" />
+		<img id="speedlimit" src="images/speedlimit.png"  crossorigin="anonymous" />
 	</a-assets>
 		
 	<a-sky 
@@ -134,7 +135,7 @@
 		shadow = "cast: true; receive: true">
 	</a-cone>
 
-<!---stop sign--->
+<!---speed limit sign--->
 	<a-cylinder
 		radius = "0.5" height = "23"
 		rotation = "0 0 0"  
@@ -142,6 +143,14 @@
 		color = "#808080"
 		shadow = "cast: true; receive: true">
 	</a-cylinder>
+	
+	<a-box
+	        width = "1.5" height = "4" depth = "3.8"
+		position = "-2 22 -11"
+		rotation = "0 0 0"  
+		material = "src: #speedlimit;"
+		shadow = "cast: true; receive: true">
+	</a-box>
 	
 <!---coke can--->
 	<a-cylinder
