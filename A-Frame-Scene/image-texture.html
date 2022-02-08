@@ -20,12 +20,14 @@
 		<img id="coke" src="images/cokecan1.png"  crossorigin="anonymous" />
 		<img id="speedlimit" src="images/speedlimit.png"  crossorigin="anonymous" />
 	</a-assets>
-		
+
+<!---sky--->
 	<a-sky 
 		color = "#FFFFFF"
 		material = "src: #campus">
 	</a-sky>
 
+<!---ground--->
 	<a-plane
 		width="100" height="100"
 		position=" 0.00 0.00 0.00" 
@@ -34,17 +36,8 @@
 		material="src: #pavement; repeat:10 10; transparent: true;"
 		shadow="cast: false; receive: true">
 	</a-plane>
-	
-	<a-box
-		width = "4" height = "4" depth = "4"
-		position = "-11 3 -3"
-		rotation = "0 45 0"  
-		color = "#FFFFFF"
-		material = "src: #craftingtable;"
-		shadow = "cast: true; receive: true">
-	</a-box>
 
-<!--robot-->
+<!--robot wheels-->
 	<a-cylinder
 		radius = "0.66" height = "1.0"
 		rotation = "90 0 0"  
@@ -98,7 +91,8 @@
 		material = "src: #tire;"
 		shadow = "cast: true; receive: true">
 	</a-cylinder>
-	
+
+<!---robot body--->
 	<a-box
 		width = "4" height = "2" depth = "3.8"
 		position = "2.4 2.6 -4"
