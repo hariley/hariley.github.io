@@ -21,6 +21,8 @@
 		<img id="speedlimit" src="images/speedlimit.png"  crossorigin="anonymous" />
 		<img id="jerometop" src="images/jerome_top.png"  crossorigin="anonymous" />
 		<img id="jeromebottom" src="images/jerome_bottom.png"  crossorigin="anonymous" />
+		<img id="rodneyhead" src="images/rodneytop.png"  crossorigin="anonymous" />
+		<img id="rodneybottom" src="images/rodney_bottom.png"  crossorigin="anonymous" />
 	</a-assets>
 
 <!---sky--->
@@ -184,6 +186,24 @@
 		shadow = "cast: true; receive: true">
 	</a-box>
 	
+<!---president rogers--->
+	<!--top-->
+	<a-box
+		width = "2" height = "3" depth = "1"
+		position = "-9 7 -32"
+		rotation = "0 0 0"  
+	        material = "src: #rodneyhead;"
+		shadow = "cast: true; receive: true">
+	</a-box>
+	
+	<!--bottom-->
+	<a-box
+		width = "4" height = "7" depth = "1"
+		position = "-9 2.6 -32"
+		rotation = "0 0 0"  
+	        material = "src: #rodneybottom;"
+		shadow = "cast: true; receive: true">
+	</a-box>
 </a-scene>
 </body>
 </html>
