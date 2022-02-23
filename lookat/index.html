@@ -7,6 +7,7 @@
 	<a-assets>
 		<img id="background" src="images/background.jpg" crossorigin="anonymous" />
         	<img id="dorm_room" src="images/dorm.JPG" crossorigin="anonymous" />
+		<img id="" src="images/" crossorigin="anonymous" />
 	</a-assets>
 		
 	<a-sky 
@@ -14,9 +15,16 @@
 		material = "src: #background">
 	</a-sky>
     
+    <a-entity 
+        position="-2 2 -2"
+        scale=".2 .2 .2"     
+        rotation="0 45 0"
+	gltf-model="modelss/tpaper.glb"
+        align="center"
+        event-set__enter="_event: mouseenter; _target: a-sky; material.src: #"      
+    ></a-entity> 
       
-      
-     <a-entity 
+    <a-entity 
 	position="0 2 2.5"
 	scale=".2 .2 .2"
 	rotation="0 180 0"
@@ -24,7 +32,7 @@
 	rotation="0 90 0" scale="1 1 1"
 	align="center" 
         event-set__enter="_event: mouseenter; _target: a-sky; material.src: #dorm_room"  
-        ></a-entity>
+    ></a-entity>
      
           
   
